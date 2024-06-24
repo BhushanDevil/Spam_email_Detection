@@ -18,7 +18,7 @@ class DataIngestion:
     def initiate_data_injestion(self):
         logging.info("Enter the injestion method or component")
         try:
-            df=pd.read_csv('notebook/Data/processed_data.csv')
+            df=pd.read_csv('notebook/data/processed_data.csv')
             logging.info("read the Dataset ")
 
             os.makedirs(os.path.dirname(self.ingestion_config.train_data_path),exist_ok=True)
