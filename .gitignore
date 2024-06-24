@@ -1,5 +1,6 @@
 #custom ignore files
 notebook/data/*.csv
+artifacts/*.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
